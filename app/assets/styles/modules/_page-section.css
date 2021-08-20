@@ -1,0 +1,48 @@
+.page-section {
+  padding: 1.2rem 0;
+  position: relative;
+
+  @mixin atMedium {
+    padding: 4.5rem 0;
+  }
+
+  &__curved-border {
+    position: absolute;
+    z-index: -3;
+    width: 100%;
+    /* transform: translateX(-50%); */
+    height: 375px;
+    margin: -150px 0;
+    border-radius: 0 0 70% 70%;
+    background-color: #ff7f32;
+    overflow: hidden;
+  }
+
+  &--no-t-padding {
+    padding-top: 0;
+  }
+
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+      padding-bottom: 4.5em;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding-bottom: 4.5em;
+    }
+  }
+
+  &--orange {
+    background-color: #ff7f32;
+  }
+
+  &--off-white {
+    background-color: #e5e5e5;
+  }
+}

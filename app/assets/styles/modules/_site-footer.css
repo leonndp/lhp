@@ -1,0 +1,9 @@
+.site-footer {
+  background-color: #1b365d;
+  color: white;
+
+  &__title {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
