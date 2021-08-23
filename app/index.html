@@ -9,7 +9,15 @@
 </head>
 <body>
   <div class="large-hero">
-    <img class="large-hero__image" src="./assets/images/hero.png" alt="Hero Image">
+    <!-- <img class="large-hero__image" src="./assets/images/hero.png" alt="Hero Image"> -->
+    <picture>
+      <source srcset="assets/images/hero.png 2880w"
+        media="(min-width: 1920px)">
+      <source srcset="assets/images/hero--medium.png 1920w"
+        media="(min-width: 1101px)">
+      <img srcset="assets/images/hero--small.png 1101w"
+        alt="Coastal view of ocean and mountains" class="large-hero__image">
+    </picture>
     <div class="large-hero__text-content">
       <div class="wrapper">
 
@@ -95,9 +103,8 @@
   <div class="page-section page-section--off-white">
     <div class="wrapper">
       <h2 class="section-header section-header--centered section-header--b-margin">Client <strong>Reviews</strong></h2>
-      <div style="text-align: center; padding-top: 80px;">
-        <img src="./assets/images/google-reviews.png" alt="">
-      </div>
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-243178f4-989a-4f32-8a16-623102e2385d"></div>
     </div>
   </div>
 
@@ -112,13 +119,27 @@
   </div> -->
 
   <div class="large-hero">
-    <img src="./assets/images/cta-background.png" alt="">
-    <div class="large-hero__text-content large-hero__text-content--right">
+    <picture>
+      <source srcset="assets/images/cta-background.png 2880w"
+        media="(min-width: 1920px)">
+      <source srcset="assets/images/cta-background--medium.png 1920w"
+        media="(min-width: 1010px)">
+      <img srcset="assets/images/cta-background--small.png 1101w"
+        alt="Coastal view of ocean and mountains" class="large-hero__image">
+    </picture>
+    <div class="large-hero__text-content">
       <div class="wrapper">
+        <div class="row row--gutters row--flex-at-large">
+          <div class="row__large-6"></div>
+          <div class="row__large-6">
 
-        <h1 class="large-hero__title">Getting your home loan</h1>
-        <h1 class="large-hero__subtitle">Shouldn't Be Complicated</h1>
-        <button class="btn btn--white">Get Started</button>
+            <h2 class="section-header section-header--white">Getting your home loan</h2>
+            <h2 class="section-header section-header--white section-header--b-margin"><strong>Shouldn't Be Complicated</strong></h2>
+            <p>Our App guides you through your mortgage financing and connects you directly ro your loan officer and realtor teams.</p>
+            <button class="btn btn--white">Apply Now</button>
+            <p><a style="color:white;" href="">DOWNLOAD THE APP</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -162,14 +183,14 @@
               <p>Ask questions and learn more to get started</p>
             </div>
           </div>
+          </div>
       </div>
-      
-
     </div>
   </div>
 
-  <div>
-    <h1>Loan Programs <strong>To Fit Your Needs</strong></h1>
+  <div class="page-section">
+
+    <h2 class="section-header section-header--centered">Loan Programs <strong>To Fit Your Needs</strong></h2>
   </div>
 
   <div class="page-section page-section--orange">
@@ -178,37 +199,6 @@
       <h3 class="section-header section-header--centered section-header--subheader section-header--white">Our mortgage advisors are standing by. Request a free personalized rate quote.</h3>
       <div style="text-align:center">
         <button class="btn btn--white btn--m-top">Get Started</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="site-footer">
-    <div class="wrapper">
-      <div class="row row--flex-at-large row--gutters">
-        <div class="row__large-6">
-          <div class="row row--flex-at-small row--gutters">
-            <div class="row__small-6">
-              <h3 class="site-footer__title">About us</h3>
-              <p>Assist Home Loans is a top reviewed mortgage broker providing excellent service and access to all lenders and products allowing us to offer you the lowest rate on the best loan available!</p>
-            </div>
-            <div class="row__small-6">
-              <h3 class="site-footer__title">About us</h3>
-              <p>Assist Home Loans is a top reviewed mortgage broker providing excellent service and access to all lenders and products allowing us to offer you the lowest rate on the best loan available!</p>
-            </div>
-          </div>
-        </div>
-        <div class="row__large-6">
-          <div class="row row--flex-at-small row--gutters">
-            <div class="row__small-6">
-              <h3 class="site-footer__title">About us</h3>
-              <p>Assist Home Loans is a top reviewed mortgage broker providing excellent service and access to all lenders and products allowing us to offer you the lowest rate on the best loan available!</p>
-            </div>
-            <div class="row__small-6">
-              <h3 class="site-footer__title">About us</h3>
-              <p>Assist Home Loans is a top reviewed mortgage broker providing excellent service and access to all lenders and products allowing us to offer you the lowest rate on the best loan available!</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
