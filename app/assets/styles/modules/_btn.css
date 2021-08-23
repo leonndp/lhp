@@ -9,6 +9,11 @@
   font-weight: 700;
   font-size: 1.25rem;
   text-transform: uppercase;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #ff4f14;
+  }
 
   &--m-top {
     margin-top: 30px;
@@ -17,6 +22,10 @@
   &--white {
     color: #ff7f32;
     background-color: white;
+
+    &:hover {
+      background-color: #e5e5e5;
+    }
   }
 
   &--m-vertical {
